@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+/* ///////SECTION 1////// */
+
+section#sec-1 {
+    position: relative;
+    height: 100vh;
+}
+
+section#sec-1 video {
+    width: 100%;
+}
+
+
+/* //////SECTION 2////// */
+
+
+
+.container-bike {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+ 
+.bike {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 0px;
+}
+    
+.bike-1 {
+    grid-area: 1 / 1 / 2 / 2; 
+    background-image: url(/publics/images/Bike-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 690px;
+    text-align: center;
+}
+
+.bike-2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(/publics/images/Bike-2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 690px;
+    text-align: center;
+}
+
+.bike-1-description {
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.bike-1-title {
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.bike-1-description2 {
+    font-size: 16px;
+    color: grey;
+    margin-top: 15px;
+}
+
+.bike-btn {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 22px;
+    border: 2px solid #b1b9c5;
+    cursor: pointer;
+    color: black;
+    margin-top: 15px;
+
+    text-decoration: none;
+}
+
+.bike-btn:hover {
+    border: 2px solid rgb(89, 89, 89);
+    transition: 0.7s;
+
+}
+
+
+/* /////SECTION 3////// */
+
+.container-triplet {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.triplet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 23px;
+    grid-row-gap: 0px;
+}
+    
+.triplet-1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url(/publics/images/Triplet.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 690px;
+    text-align: center;
+
+
+}
+
+.triplet-2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(/publics/images/Triplet.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 690px;
+    text-align: center;
+
+}
+
+.triplet-3 {
+    grid-area: 1 / 3 / 2 / 4;
+    background-image: url(/publics/images/Triplet.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 690px;
+    text-align: center;
+}
