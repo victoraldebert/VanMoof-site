@@ -11,19 +11,39 @@
     width: 1440px;
     height: 100%;
     margin: 0 auto;
-    /* background-color: red; */
+    overflow: hidden;
 }
 
 /* ///////SECTION 1////// */
 
 section#sec-1 {
     position: relative;
-    height: 100vh;
+    height: 102vh;
 }
 
 section#sec-1 video {
     width: 100%;
+    position: absolute;
+    z-index: -100;
 }
+
+.nav-bar {
+    color: white;
+    display: flex;
+    ;
+}
+
+li {
+    float: left;
+}
+
+.logo-vanmoof {
+    width: 139px;
+    height: 16px;}
+
+
+
+
 
 
 /* //////SECTION 2////// */
@@ -154,3 +174,221 @@ section#sec-1 video {
     height: 690px;
     text-align: center;
 }
+
+/* //////THIRD///// */
+
+.container-third {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* //////SECTION 4/////// */
+
+
+
+.container-fourth {
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+.fourth-1 {
+    background-image: url(/publics/images/blue-bike.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 690px;
+    text-align: center;
+}
+
+.fourth-description {
+    font-size: 16px;
+    color: white;
+    margin-top: 40px;
+
+}
+
+.fourth-title {
+    font-size: 32px;
+    color: white;
+    margin-top: 15px;
+
+
+}
+
+.fourth-btn {
+    font-size: 14px;
+    padding: 11px;
+    border-radius: 22px;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.fourth-btn:hover {
+    border: 2px solid rgb(89, 89, 89);
+    transition: 0.7s;
+}
+
+/* /////SECTION 5/////// */
+
+.container-quad {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.quad {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0px;
+}
+    
+.quad-1 {
+    grid-area: 1 / 1 / 2 / 2;
+    background-image: url(/publics/images/rectangle-blue.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 620px;
+    text-align: center; 
+}
+
+.quad-2 {
+    grid-area: 1 / 2 / 2 / 3;
+    background-image: url(/publics/images/bike-model.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 620px;
+    text-align: center;
+}
+
+.quad-3 {
+    grid-area: 2 / 1 / 3 / 2;
+    background-image: url(/publics/images/Iphone.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 620px;
+    text-align: center;
+}
+
+.quad-4 {
+    grid-area: 2 / 2 / 3 / 3;
+    background-image: url(/publics/images/rectangle-black.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 620px;
+}
+
+.quad-description {
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 24px;
+
+}
+.quad-title {
+    font-size: 32px;
+    margin-top: 15px;
+}
+.quad-description-2 {
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    line-height: 24px;
+
+}
+.quad-btn {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 22px;
+    border: 2px solid #b1b9c5;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.quad-description-white {
+    font-size: 16px;
+    margin-top: 93px;
+    line-height: 24px;
+    color: white;
+    margin-left: 30px;
+
+}
+.quad-title-white {
+    font-size: 40px;
+    margin-top: 15px;
+    color: white;
+    line-height: 48px;
+    margin-left: 30px;
+
+}
+.quad-description-white-2 {
+    font-size: 16px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    line-height: 24px;
+    color: white;
+    margin-left: 30px;
+    
+
+}
+.quad-btn-white {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 22px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-left: 30px;
+}
+
+.black {
+    color: black;
+    
+}
+
+
+/* .bike-1-description {
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.bike-1-title {
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+.bike-2-title {
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.bike-1-description2 {
+    font-size: 16px;
+    color: grey;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.bike-btn {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 22px;
+    border: 2px solid #b1b9c5;
+    cursor: pointer;
+    color: black;
+
+    text-decoration: none;
+}
+
+.bike-btn:hover {
+    border: 2px solid rgb(89, 89, 89);
+    transition: 0.7s;
+
+} */
