@@ -75,10 +75,17 @@ section#sec-1 video {
     margin-top: 15px;
 }
 
+.bike-2-title {
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
 .bike-1-description2 {
     font-size: 16px;
     color: grey;
     margin-top: 15px;
+    margin-bottom: 25px;
 }
 
 .bike-btn {
@@ -88,7 +95,6 @@ section#sec-1 video {
     border: 2px solid #b1b9c5;
     cursor: pointer;
     color: black;
-    margin-top: 15px;
 
     text-decoration: none;
 }
@@ -132,7 +138,7 @@ section#sec-1 video {
 
 .triplet-2 {
     grid-area: 1 / 2 / 2 / 3;
-    background-image: url(/publics/images/Triplet.png);
+    background-image: url(/publics/images/Bike-blue.png);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 690px;
@@ -142,7 +148,7 @@ section#sec-1 video {
 
 .triplet-3 {
     grid-area: 1 / 3 / 2 / 4;
-    background-image: url(/publics/images/Triplet.png);
+    background-image: url(/publics/images/Accesoires.png);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 690px;
