@@ -254,7 +254,7 @@ li {
     background-size: 100%;
     background-repeat: no-repeat;
     height: 620px;
-    text-align: center; 
+    text-align: start; 
 }
 
 .quad-2 {
@@ -281,77 +281,82 @@ li {
     background-size: 100%;
     background-repeat: no-repeat;
     height: 620px;
+
 }
 
-.quad-description {
+.quad-description-black {
     font-size: 16px;
-    margin-top: 40px;
-    line-height: 24px;
-
-}
-.quad-title {
-    font-size: 32px;
-    margin-top: 15px;
-}
-.quad-description-2 {
     font-size: 16px;
-    margin-top: 15px;
-    margin-bottom: 25px;
-    line-height: 24px;
-
+    margin-top: 150px;
+    margin-left: 50px;
 }
-.quad-btn {
+
+.quad-title-black {
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 14px;
+    font-weight: 500;
+}
+
+.quad-description-black-2 {
+    margin-left: 50px;
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 42px;
+    
+}
+
+.quad-btn-black {
+    margin-left: 50px;
     font-size: 14px;
-    padding: 10px;
+    padding: 14px;
     border-radius: 22px;
-    border: 2px solid #b1b9c5;
+    border: 1px solid #000000;
+    background-color: black;
     cursor: pointer;
+    color: white;
     text-decoration: none;
+
 }
 
 .quad-description-white {
     font-size: 16px;
-    margin-top: 93px;
-    line-height: 24px;
+    font-size: 16px;
+    margin-top: 150px;
+    margin-left: 50px;
     color: white;
-    margin-left: 30px;
-
 }
+
 .quad-title-white {
     font-size: 40px;
-    margin-top: 15px;
+    margin-left: 50px;
+    margin-top: 14px;
+    font-weight: 500;
     color: white;
-    line-height: 48px;
-    margin-left: 30px;
-
 }
+
 .quad-description-white-2 {
+    margin-left: 50px;
+    margin-top: 14px;
     font-size: 16px;
-    margin-top: 40px;
-    margin-bottom: 40px;
     line-height: 24px;
+    margin-bottom: 42px;
     color: white;
-    margin-left: 30px;
     
-
 }
+
 .quad-btn-white {
+    margin-left: 50px;
     font-size: 14px;
-    padding: 10px;
+    padding: 14px;
     border-radius: 22px;
-    border: 2px solid #ffffff;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
     background-color: white;
-    margin-left: 30px;
-}
-
-.black {
+    cursor: pointer;
     color: black;
-    
-}
+    text-decoration: none;
 
+}
 
 /* .bike-1-description {
     font-size: 16px;
